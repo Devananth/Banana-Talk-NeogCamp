@@ -1,0 +1,64 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+body{
+    display:block;
+}
+
+main{
+    margin : auto;
+    padding : 1rem;
+    max-width: 600px;
+}
+
+div{
+    display:block;
+}
+
+.heading{
+    background-color:yellow;
+    color:black;
+    font-size: 2rem;
+    padding : 1rem;
+    text-align: center;
+}
+
+textarea{
+    box-sizing: border-box;
+    display:block;
+    width: 100%;
+    min-height: 20vh;
+    margin-top: 2rem;
+    font-size : large;
+    padding : .5rem .5rem;
+
+}
+
+#translate-btn{
+    padding : 1rem 2rem;
+    background-color:yellow;
+    color: black;
+    margin : 1rem;
+    cursor: pointer;
+}
+#translate-op{
+   border : 1px solid black;
+   width : 100%;
+   display : block;
+   min-height : 20vh;
+   padding : .5rem .5rem;
+   overflow : scroll;
+}
+
+.footer{
+    background-color : yellow;
+    padding : 1rem 1rem;
+    text-align: center;
+    position : fixed; 
+    bottom : 0;
+    font-size : large;
+    line-height : 1.5rem;
+}
