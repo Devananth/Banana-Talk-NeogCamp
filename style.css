@@ -6,12 +6,13 @@
 
 body{
     display:block;
+    max-width : 600px;
+    margin : auto;
+    height : 100vh;
 }
 
 main{
-    margin : auto;
     padding : 1rem;
-    max-width: 600px;
 }
 
 div{
@@ -54,12 +55,10 @@ textarea{
 }
 
 .footer{
+    margin-top : 4rem;
     background-color : yellow;
-    padding : 1rem 1rem;
+    bottom: 0;
     text-align: center;
-    width : 100%;
-    position : fixed; 
-    bottom : 0;
     font-size : large;
     line-height : 1.5rem;
 }
